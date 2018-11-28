@@ -8,6 +8,19 @@ body{
     max-width: 100%;
     max-height: 100%;
 }
+a:link {
+    text-decoration: none;
+    color: black;  
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
 /*******************Heading Style********************/
 .sectionA {
     display: grid;
@@ -27,7 +40,7 @@ body{
     text-align: left;
     grid-column-start:1;
     grid-column-end:5;
-    font-size: .5em;
+    font-size: .4em;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
 }
@@ -45,10 +58,6 @@ body{
 #contact{
     grid-column-start:8;
 }
-.navText a{
-    text-decoration: none;
-    color: black;   
-}
 .navIcon{  
     grid-column-start:8;
     grid-column-end:9;
@@ -64,16 +73,29 @@ body{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
+    grid-gap: 0.5%;
     align-items: center;
     justify-content: center;
+    justify-items: center;
     padding-top: 5%;
     padding-bottom: 5%;
     max-width: 100%;
     max-height: 100%;
 }
-.gallery{
-    border: 1px solid black;
+.gallery:hover{
+    opacity: 0.50;
+    transform: scale(1.1);
 }
+.HomeGridImg{
+    max-width: 100%;
+}
+.HomeGridTitle{
+    color: black;
+    margin: auto;
+    font-size: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 /*******************Footer Style********************/
 .sectionC{
     background-color: #eee;    
