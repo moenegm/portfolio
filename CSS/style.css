@@ -8,10 +8,6 @@ body{
     max-width: 100%;
     max-height: 100%;
 }
-.header, .footer{
-    grid-column: span 4;
-    background-color: #eee;
-}
 /*******************Heading Style********************/
 .sectionA {
     display: grid;
@@ -78,4 +74,7 @@ body{
 .gallery{
     border: 1px solid black;
 }
-/*******************Body Style********************/
+/*******************Footer Style********************/
+.sectionC{
+    background-color: #eee;    
+}
